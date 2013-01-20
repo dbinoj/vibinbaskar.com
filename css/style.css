@@ -287,3 +287,7 @@ top: 50%;
 left: 50%;
 margin: -20px 0 0 -20px;
 }
+
+footer a{
+color: white;
+}
