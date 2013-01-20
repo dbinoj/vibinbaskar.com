@@ -46,7 +46,7 @@ $xml = simplexml_load_file($url) or die("could not connect");
        foreach($xml->status as $status){
        $text = $status->text;
        }
-       echo "<a href='//twitter.com/vibinbaskar'>@vibinbaskar</a>: " . $text;
+       echo "<a class='footer-link' href='//twitter.com/vibinbaskar'>@vibinbaskar</a>: " . $text;
  }
 
 getTwitterStatus("vibinbaskar");
