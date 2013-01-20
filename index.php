@@ -38,9 +38,9 @@
 <div class="small_container">
 <br/><br/><br/><center><h5>
 <?php 
+
 function getTwitterStatus($userid){
 $url = "https://api.twitter.com/1/statuses/user_timeline/$userid.xml?count=1&include_rts=0";
-
 $xml = simplexml_load_file($url) or die("could not connect");
 
        foreach($xml->status as $status){
