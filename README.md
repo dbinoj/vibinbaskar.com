@@ -1,1 +1,1 @@
-Just a static file for now
+Just a static site for now
