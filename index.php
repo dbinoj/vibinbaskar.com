@@ -48,8 +48,6 @@ $xml = simplexml_load_file($url) or die("could not connect");
        }
        echo "<a class='footer-link' href='//twitter.com/vibinbaskar'>@vibinbaskar</a>: " . $text;
  }
-
-//getTwitterStatus("vibinbaskar");
 ?></h5></center>
 <br/><br/>     <p style="text-align:right;">&copy; 2013 Vibin Baskar </p> <br/><br/>
 </div>
